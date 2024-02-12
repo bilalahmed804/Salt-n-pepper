@@ -1,0 +1,428 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 24px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.nav_icon> img{
+    margin: 0px 200px 0px 0px;
+    padding-top: 10px;
+}
+.nav_name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.nav_name> a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.nav_name> a:hover{
+    background-color: #f3aaaa;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 1s;
+    color: black;
+}
+.nav_name> .get{
+    padding: 11px 18px 11px 18px;
+    border-radius: 30px;
+    border: 0.5px solid red;
+    background-color: red;
+    color: white;
+}
+.nav_name> button{
+    padding: 13px 20px 13px 20px;
+    border-radius: 30px;
+    border: 0.5px solid white;
+    background-color: black;
+    color: white;
+    margin: 10px 10px;
+    font-size: 14px;
+}
+.nav_name> button> i{
+    border: 0.5px solid red;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 7px;
+    color:red;
+    background-color: white;
+}
+
+.image75{
+    background-color: black;
+}
+.image75> img{
+    width: 100%;
+}
+
+/* *************************2nd landing pages*********************** */
+.page_tow{
+    background-color: black;
+    color: white;
+    padding: 70px 15px 50px 15px;
+    width: 100%;
+}
+.pragraph{
+    text-align: center;
+    width: 100%;
+    height: 170px;
+}
+.page_tow> .pragraph> h1{
+    padding: 30px 0px;
+    
+}
+.order{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 244px;
+}
+.font_style{
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+}
+.page_tow> h1,h2,p{
+    font-family: monospace;
+}
+.page_tow> .pragraph> h2{
+    font-size: 40px;
+}
+.page_tow> .pragraph> p{
+    padding-top: 20px;
+}
+.pragraph> p{
+    color:gray;
+    font-size: 17px;
+}
+.main{
+    padding: 20px;
+}
+.main> img{
+    background-color: white;
+    border-radius: 5px;
+    width: 260px;
+    height: 140px;
+    padding: 20px;
+}
+.main> button{
+    display: block;
+    border: none;
+    padding: 12px 40px;
+    color: ghostwhite;
+    border-radius: 35px;
+    background-color: black;
+    border: 1px solid gray;
+    margin: 30px 0px 0px 50px;
+}
+/* ***************3rd landing page********************* */
+.background_image{
+    padding-top: 30px;
+    background-color:#0F0F0F;
+    color: white;
+}
+.background_image> .pragraph> h2{
+    font-size: 50px;
+    font-family: serif;
+    padding: 30px 0px;
+}
+.main_card{
+    max-width: 100%;
+    padding-bottom: 40px;
+}
+.card_main{
+    width: 100%;
+    display: flex;
+   padding: 0px 40px 0px 40px;
+}
+.main_1{
+    width: 100%;
+    height: 238px;
+    margin: 20px;
+}
+.main_1> p, h3, button{
+    padding: 10px;
+}
+.main_1> .zero{
+    color: red;
+    letter-spacing: 0.48em;
+    font-style: normal;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.main_1> .nine_9{
+    color: gray;
+    font-family: sans-serif;
+}
+.saltn{
+    font-size: 30px;
+}
+.main_1> button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    border: 0.5px solid gray;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+.main_1> .getone> i{
+    background-color: white;
+    border-radius: 20px;
+    color: red;
+    padding: 5px 7px;
+    margin-left: 6px;
+}
+.main_2> {
+    max-width: 100%;
+}
+.main_2> img{
+    border-radius: 8px;
+}
+/* *********************card section******************** */
+.heading{
+    background-color: black;
+    padding-top : 30px;
+    text-align: center;
+    color: white;
+}
+.card_flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    column-gap: 40px;
+    
+}
+.card_size{
+    background-color: black;
+}
+.card_create{
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+.card_create> .pack{
+    color: red;
+    margin-top: 20px;
+}
+.font_style_1{
+    font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+}
+.card_create> img{
+    width: 360px;
+    height: 250px;
+    border-radius: 5px;
+}
+.card_create> button{
+    padding: 8px 18px 8px 18px;
+    border-radius: 30px;
+    border: 0.5px solid gray;
+    background-color: black;
+    color: white;
+}
+.card_create> button> i{
+    background-color: white;
+    border-radius: 20px;
+    color: red;
+    padding: 7px 8px;
+    margin-left: 6px;
+    rotate: -50deg;
+    font-size: 18px;
+}
+/* *********************5 landing page************************** */
+.landing_page{
+    background-color: #0F0F0F;
+    padding: 20px 0px 80px 0px;
+    color: white;
+}
+.heading_8{
+    background-color: #0F0F0F;
+    padding-top : 30px;
+    text-align: center;
+    color: white;
+}
+.main_1> .btn{
+    padding: 8px 18px 8px 18px;
+    border-radius: 30px;
+    border: 0.5px solid gray;
+    background-color: rgb(11, 196, 11);
+    color: white;
+}
+.main_1> .btn> i{
+    background-color: white;
+    border-radius: 20px;
+    color: greenyellow;
+    padding: 7px 8px;
+    margin-left: 6px;
+    font-size: 18px;
+}
+.main_tow> img{
+    border-radius: 5px;
+    width: 100%;
+}
+/* *********************boxes******************* */
+.small_boxes{
+    background-color: black;
+}
+.box_1{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.boxe_flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.box_1> i{
+    color: #ad4040;
+    font-size: 30px;
+    padding: 12px 15px;
+    border-radius: 50px;
+    background-color: gainsboro;
+    margin-top: 20px;
+}
+.box_1> p> .zero2{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: serif;
+}
+.box_1> p{
+    font-family: serif;
+    font-size: 25px;
+}
+.box_1> .open{
+    color: red;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+/* *************************picture************************ */
+.images> img{
+    width: 260px;
+    height: 260px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    background-color: black;
+}
+.fill{
+    background-color: black;
+    padding-bottom: 50px;
+}
+.fill> h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: serif;
+}
+/* **********************************footer created***************************** */
+.footer_image{
+   background-color:#0F0F0F;
+   display: flex;
+   justify-content: center;
+   padding: 60px;
+}
+.logo_2{
+    width: 100%;
+    height: 300px;
+    color: white;
+    font-family: serif;
+}
+.logo_2> img{
+    width: 120px;
+    height: 50px;
+}
+.logo_2> p{
+    text-align: justify;
+    color: #b1a5a5da;
+    font-family: sans-serif;
+}
+.logo_2> ol{
+    padding-left: 40px;
+}
+.footer_image> .logo_2> ol> li{
+    list-style-type: none;
+    color: #b1a5a5da;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.icon_00> i{
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    margin: 5px;
+}
+.footer_imge2> img{
+    padding: 20px 10px 10px 10px;
+}
+
+.lastline{
+    background-color: black;
+    color: white;
+    border-top: 1px solid gray;
+    padding: 15px;
+    color: gray;
+}
+.lastline> .copy{
+    margin-right: 700px;
+    margin-left: 100px;
+}
+.botton_btn{
+    position: fixed;
+    width: 40px;
+    height: 50px;
+    background-color: #383737;
+    bottom: 20px;
+    right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botton_btn> a> i{
+    font-size: 30px;
+    color:white;
+    margin:10px 5px;
+}
+@media only screen and  (max-width:805px) {
+    .card_main{
+        padding: 0px;
+    }
+    .nav_icon> img{
+        margin-right: 0;
+    }
+    .main_2> img{
+        width: 100%;
+        height: 100%;
+    }
+    .lastline> .copy{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .footer_image{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
